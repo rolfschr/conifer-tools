@@ -273,7 +273,7 @@ class ConiferPlotter():
         if int(chromosome_int) == 23:
             return 'chrX'
         elif int(chromosome_int) == 24:
-            return 'chrY' 
+            return 'chrY'
         else:
             return 'chr' + str(chromosome_int)
 
@@ -282,7 +282,7 @@ class ConiferPlotter():
         if chr == 'X':
             return 23
         elif chr == 'Y':
-            return 24 
+            return 24
         else:
             return int(chr)
     
